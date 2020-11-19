@@ -1,0 +1,7 @@
+<view>
+<view class="video" wx:for="{{video}}" wx:key="title">
+<view class="title">标题：{{item.title}}</view>
+<view>时间：{{item.create_time}}</view>
+<video src="{{item.url}}" controls direction="90" show-fullscreen-btn></video>
+</view>
+</view>

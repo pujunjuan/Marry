@@ -1,0 +1,37 @@
+/* pages/Info/Info.wxss */
+.backImg{
+  height: 100vmax;
+}
+.f{
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.f input{
+  border: 1px solid #ec5f89;
+  height: 10vw;
+  width: 70vw;
+  margin: 10px;
+  border-radius: 1vw;
+  padding-left: 5px;
+}
+.f picker{
+  border: 1px solid #ec5f89;
+  height: 10vw;
+  width: 70vw;
+  margin: 10px;
+  padding-left: 5px;
+  border-radius: 1vw;
+}
+.f form button{
+  background-color: #ec5f89;
+  height: 10vw;
+  width: 76vw;
+  color: white;
+  margin: auto;
+  font-size: 15px;
+}

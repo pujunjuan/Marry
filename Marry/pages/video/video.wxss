@@ -1,0 +1,7 @@
+.video{
+  margin: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 0px 5px gainsboro;
+}
+.title{
+  padding-top: 5px;
+}

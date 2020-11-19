@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/picture/picture",
+    "pages/video/video",
+    "pages/Info/Info",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ec5f89",
+    "navigationBarTitleText": "宾客信息",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF69b4",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "邀请函",
+      "iconPath": "/images/invite.png",
+      "selectedIconPath": "/images/invite.png"
+    },
+    {
+      "pagePath": "pages/picture/picture",
+      "text": "照片",
+      "iconPath": "/images/marry.png",
+      "selectedIconPath": "/images/marry.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "美好时光",
+      "iconPath": "/images/video.png",
+      "selectedIconPath": "/images/video.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "婚礼地点",
+      "iconPath": "/images/map.png",
+      "selectedIconPath": "/images/map.png"
+    },{
+      "pagePath": "pages/Info/Info",
+      "text": "宾客信息",
+      "iconPath": "/images/guest.png",
+      "selectedIconPath": "/images/guest.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+   "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ]
+}

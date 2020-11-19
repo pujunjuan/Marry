@@ -1,0 +1,90 @@
+page{
+    height: 100vh;
+}
+.image{
+  height: 100vh;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.img{
+  width: 16vw;
+  height: 16vh;
+  position: absolute;
+  top: 0px;
+}
+.music{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2vh;
+  right: 3vw;
+}
+.music1{
+  width: 10vw;
+  height: 10vw;
+}
+.music2{
+  width: 8vw;
+  height: 8vh;
+}
+
+.tetx{
+  color: #ec5f89;
+  font-size: 5vmax;
+}
+.marry{
+  border-radius: 50%;
+  width: 35vw;
+  height: 35vw;
+  margin-top: 10px;
+  border: 3px solid #ec5f89;
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+}
+.wedding{
+  width: 9vw;
+  height: 9vw;
+  margin: 0px 20px 0px 10px;
+}
+.tel{
+  width: 5vw;
+  height: 5vw;
+  position: relative;
+  top: -5vh;
+  border: 1px #ec5f89 solid;
+  border-radius: 50%;
+}
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ec5f89;
+  margin-top: 2vh;
+}
+.one{
+  margin: 20px;
+  color: #ec5f89;
+}
+.two{
+  margin: 5px;
+  color: #ec5f89;
+  font-size: 3vh;
+}
+.three{
+   color:#ec5f89;
+  font-size: 3vh;
+}

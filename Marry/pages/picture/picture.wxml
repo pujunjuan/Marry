@@ -1,0 +1,16 @@
+<view>
+<swiper indicator-dots indicator-active-color="#ec5f89" autoplay interval="1000" circular vertical>
+<swiper-item>
+<image src="../../images/timg1.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/timg2.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/timg3.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/timg4.jpg"></image>
+</swiper-item>
+</swiper>
+</view>

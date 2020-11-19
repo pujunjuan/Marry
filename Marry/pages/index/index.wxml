@@ -1,0 +1,36 @@
+<view class="box">
+<image src="../../images/bg_1.png" class="image"/>
+
+<view class="content">
+<image src="../../images/save_the_date.gif" class="img"/>
+
+<view class="music">
+<image src="../../images/music_icon.png" class="music1" bindtap="playmusic"/>
+<image src="../../images/music_play.png" class="music2"/>
+</view>
+
+<view class="contain">
+<text class="tetx">邀请函</text>
+<image src="../../images/avatar.png" class="marry"></image>
+
+<view class="center">
+<view>
+<view>{{men}}</view>
+<view>新郎</view>
+</view>
+<image src="../../images/tel.png" class="tel"></image>
+<image src="../../images/wedding.png" class="wedding"></image>
+<view>
+<view>{{women}}</view>
+<view>新娘</view>
+</view>
+<image src="../../images/tel.png" class="tel"></image>
+</view>
+
+<view class="one">我们诚邀您来参加我们的婚礼</view>
+<view class="two">时间：{{time}}</view>
+<view class="three">地点：{{address}}</view>
+</view>
+
+</view>
+</view>
